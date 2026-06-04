@@ -1,0 +1,7 @@
+PNR88027,anu,23,103,Vijayawada Superfast,hys,chen,30/4/26,2026-05-23 21:30:06,BOOKED,0.0
+PNR27034,anu12,32,106,Bangalore Mail,hyd,tij,5,2026-05-23 21:30:26,CANCELLED,400.0
+PNR30369,Anusha,20,101,Chennai Express,hyd,chennai,25/5/26,2026-05-23 21:56:05,BOOKED,0.0
+PNR47976,anu,21,101,Chennai Express,hyd,sev,28/4/87,2026-05-23 21:26:05,BOOKED,0.0
+PNR5323,anu,32,102,Hyderabad Intercity,hyd,sec,25/6/26,2026-05-23 21:29:46,BOOKED,0.0
+PNR9836,anusha,20,103,Vijayawada Superfast,hyd,vijayawada,30/6/26,2026-05-23 21:56:32,CANCELLED,400.0
+PNR39241,anusha,34,102,Hyderabad Intercity,hyd,chennai,30/6/26,2026-05-23 21:26:26,CANCELLED,400.0
