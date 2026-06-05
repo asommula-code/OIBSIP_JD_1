@@ -3,7 +3,7 @@
 
 ## Overview
 
-The Online Reservation System is a console-based Java application developed to automate railway ticket booking and cancellation operations. The system provides secure user authentication, reservation management, PNR generation, and ticket cancellation functionality.
+The Online Reservation System is a console-based Java application developed to automate railway ticket reservation and cancellation processes. The system provides secure user authentication, ticket booking, cancellation, PNR generation, seat management, refund calculation, and ticket printing functionalities.
 
 This project was developed as part of a Java Development Internship.
 
@@ -11,102 +11,134 @@ This project was developed as part of a Java Development Internship.
 
 ## Features
 
-### Login Module
-- User authentication using User ID and Password
-- Secure access to reservation services
+### Login System
+
+* User authentication using User ID and Password
+* Secure access to reservation services
 
 ### Reservation Module
-- Passenger details entry
-- Train selection using Train Number
-- Automatic Train Name retrieval
-- Class selection
-- Journey date selection
-- Source and destination stations
-- Automatic PNR generation
+
+* View available trains
+* Seat availability checking
+* Passenger details entry
+* Journey information management
+* Automatic PNR generation
+* Booking confirmation
 
 ### Cancellation Module
-- Search reservation using PNR
-- Display reservation details
-- Cancellation confirmation
-- Ticket removal from system
 
-### Reservation Management
-- View all reservations
-- Track reservation details
+* Search reservation using PNR
+* Display ticket details
+* Cancellation confirmation
+* Refund calculation
+* Seat restoration after cancellation
+
+### Admin Module
+
+* Secure admin login
+* View active bookings
+* View cancelled bookings
+* Monitor refund details
+
+### Ticket Management
+
+* Realistic railway ticket format
+* Print ticket using PNR number
+* Booking date and journey date tracking
+
+### Data Persistence
+
+* File-based storage using bookings.txt
+* Automatic loading of saved reservations
+* Data retention between program executions
 
 ---
 
 ## Technologies Used
 
-- Java
-- Object-Oriented Programming (OOP)
-- Collections Framework (HashMap, ArrayList)
-- Random Number Generation
-- Console-Based Interface
+* Java
+* Object-Oriented Programming (OOP)
+* Collections Framework (HashMap)
+* File Handling
+* Exception Handling
+* Date and Time APIs
+* Console-Based User Interface
 
 ---
 
 ## Project Structure
 
-```text
 OnlineReservationSystem/
 │
-├── Main.java
-├── User.java
-├── Train.java
-├── Reservation.java
-├── ReservationSystem.java
+├── OnlineReservationSystem.java
+├── bookings.txt
 └── README.md
-```
-
----
-
-## Modules
-
-### User.java
-Stores login credentials.
-
-### Train.java
-Stores train information.
-
-### Reservation.java
-Stores passenger and booking details.
-
-### ReservationSystem.java
-Handles reservation and cancellation operations.
-
-### Main.java
-Application entry point.
 
 ---
 
 ## Functionalities
 
-- Login
-- Reserve Ticket
-- Cancel Ticket
-- View Reservations
-- Logout
+1. User Login
+2. Ticket Reservation
+3. Ticket Cancellation
+4. Admin Panel
+5. Ticket Printing
+6. Seat Management
+7. Refund Processing
+8. Data Persistence
 
 ---
 
-## Future Enhancements
+## Sample Credentials
 
-- Database Integration (MySQL)
-- Online Payment Gateway
-- Seat Availability Tracking
-- Email/SMS Ticket Confirmation
-- GUI using Java Swing or JavaFX
+### User Login
+
+User ID: user1
+Password: pass1
+
+### Admin Login
+
+Admin ID: admin
+Password: admin123
+
+---
+
+## Available Trains
+
+101 - Chennai Express
+
+102 - Hyderabad Intercity
+
+103 - Vijayawada Superfast
+
+104 - Tirupati Express
+
+105 - Delhi Rajdhani
+
+106 - Bangalore Mail
 
 ---
 
 ## Learning Outcomes
 
-- Object-Oriented Programming
-- Reservation Management Systems
-- Collections Framework
-- Authentication Systems
-- Java Application Development
+* Object-Oriented Programming Concepts
+* Railway Reservation System Design
+* File Handling in Java
+* Data Persistence
+* User Authentication
+* Collection Framework Usage
+* Ticket Management Systems
+
+---
+
+## Future Enhancements
+
+* MySQL Database Integration
+* Online Payment Gateway
+* Email/SMS Ticket Notifications
+* Seat Selection System
+* GUI using Java Swing or JavaFX
+* Web-Based Reservation Portal
 
 ---
 
